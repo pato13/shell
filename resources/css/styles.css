@@ -140,6 +140,8 @@ footer img{
   nav.container{
     max-width: 100%;
   }
+}  
+@media only screen and (max-width: 1024px){
  header{
    padding-top: 0px;
    height: 22rem;
@@ -157,42 +159,59 @@ footer img{
   header div span{
     display: none;
   }
+@media only screen and (max-width: 560px){
   header{
     height: 17rem;
     background-position: 20% center;
   }
+}
+@media only screen and (max-width: 560px) {
   .process{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin-top: 3rem;
   }
+}
+@media only screen and (max-width: 560px){
   .service{
     height: auto;
     font-size: 0.77rem;
     margin: 0.77rem;
   }
+}
+@media only screen and (max-width: 560px){
   .information{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin-top: 3rem;
   }
+}
+@media only screen and (max-width: 560px){
   .info{
     width: auto;
   }
+}
+@media only screen and (max-width: 560px){
   .info .title{
     width: 100%;
     max-width: 100%;
     text-align: center;
   }
+}
+@media only screen and (max-width: 560px){
   .info p{
     font-size: 0.77rem;
     padding: 1rem;
   }
+}
+@media only screen and (max-width: 560px){
   footer{
     justify-content: center;
   }
+}
+@media only screen and (max-width: 560px){
   footer div{
     display: none;
   }
